@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(
+    rgb(153, 248, 219),
+    rgb(153, 248, 219),
+    rgb(153, 248, 219)
+  );
+  width: 99%;
+  height: 95vh;
+  animation: bgchange 3s infinite alternate;
+}
+.t {
+  text-align: right;
+}
+
+@keyframes bgchange {
+  0% {
+    background: rgb(154, 234, 236);
+  }
+  25% {
+    background: rgb(122, 162, 221);
+  }
+  50% {
+    background: rgb(204, 143, 228);
+  }
+  75% {
+    background: rgb(218, 142, 189);
+  }
+  100% {
+    background: rgb(235, 129, 129);
+  }
+}
